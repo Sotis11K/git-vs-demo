@@ -1,0 +1,14 @@
+body{
+    background-color: hsl(226, 68%, 22%);
+    #wrapper{
+        background-color: red;
+        div{
+
+            @include square(50px);
+        }
+        div.big{
+            @include square(200px);
+        }
+    }
+}
+
